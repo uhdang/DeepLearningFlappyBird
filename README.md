@@ -113,3 +113,21 @@ This work is highly based on the following repos:
 1. [sourabhv/FlapPyBird] (https://github.com/sourabhv/FlapPyBird)
 2. [asrivat1/DeepLearningVideoGames](https://github.com/asrivat1/DeepLearningVideoGames)
 
+
+
+## Instruction from Udacity
+1. Install miniconda or anaconda if you have not already. You can follow our tutorial for help.
+2. Create an environment for flappybird
+    * Mac/Linux: conda create --name=flappybird python=2.7
+    * Windows: conda create --name=flappybird python=3.5
+3. Enter your conda environment
+    * Mac/Linux: source activate flappybird
+    * Windows: activate flappybird
+4. conda install opencv
+    * If you encounter an error here, you may try an alternate download path and instead type 
+        conda install --channel https://conda.anaconda.org/menpo opencv3
+5. pip install pygame
+6. pip install tensorflow==0.12
+7. clone this repository 
+8. cd DeepLearningFlappyBird
+9. python deep_q_network.py
